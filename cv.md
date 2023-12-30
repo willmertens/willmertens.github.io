@@ -1,6 +1,7 @@
 ---
 layout: cv
 custom_css: resume
+permalink: /cv/
 ---
 # Employment
 ## Esri
