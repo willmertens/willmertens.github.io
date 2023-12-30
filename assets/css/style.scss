@@ -63,3 +63,12 @@ p.post-list + h2.post-list{
 p.post-list{
   font-size: .83em;
 }
+
+.main-content p:has(img){
+  margin-bottom: 0;
+}
+
+h5.img-caption{
+  margin-top: 0;
+  font-style: italic;
+}
