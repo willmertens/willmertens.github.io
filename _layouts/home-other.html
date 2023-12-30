@@ -7,7 +7,9 @@ layout: "default"
 
 {% for post in site.posts %}
     {% if post.type =='other'%}
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1> <br>
+        <h2 class="post-list"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h5 class="post-list"><em>{{ post.date | date: "%B %-d %Y" }}</em></h5>
+        <p class="post-list">{{ post.blurb }}</p>
     {% endif %}
 {% endfor %}
 

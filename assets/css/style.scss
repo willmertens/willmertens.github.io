@@ -51,3 +51,15 @@ a.title { color: #fff; text-decoration: none; }
   width: 90%;
 }
 
+h1.post-list, h2.post-list, h4.post-list, h5.post-list, p.post-list{
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+}
+
+p.post-list + h2.post-list{
+  margin-top: 1rem;
+}
+
+p.post-list{
+  font-size: .83em;
+}
