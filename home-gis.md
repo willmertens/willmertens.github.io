@@ -1,4 +1,4 @@
 ---
 layout: home-GIS
-permalink: /home-GIS/
+permalink: /home-gis/
 ---
