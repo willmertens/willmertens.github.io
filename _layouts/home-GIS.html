@@ -1,0 +1,16 @@
+---
+layout: "default"
+permalink: "/gis/"
+---
+<a href = "/" class = "btn-posts">All Posts</a>
+<a href = "/gis/" class = "btn-posts-active">GIS Projects</a>
+<a href = "/other/" class = "btn-posts">Other Projects</a>
+
+{% for post in site.posts %}
+    {% if post.type =='GIS'%}
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1> <br>
+    {% endif %}
+{% endfor %}
+
+
+{{ content }}
