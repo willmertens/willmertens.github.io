@@ -5,6 +5,9 @@
 
 a{ color: #159957}
 a.title { color: #fff; text-decoration: none; }
+h5 > a {
+  text-decoration: underline;
+}
 
 .btn-posts { display: inline-block; margin-bottom: 1rem; color: #159957; background-color: #fff; border-color: #159957; border-style: solid; border-width: 1px; border-radius: 0.3rem; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
 .btn-posts:hover { color: #ffffff; text-decoration: none; background-color: #159957; border-color: rgba(255, 255, 255, 0.3); }
@@ -72,3 +75,4 @@ h5.img-caption{
   margin-top: 0;
   font-style: italic;
 }
+
