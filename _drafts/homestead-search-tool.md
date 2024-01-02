@@ -8,6 +8,8 @@ permalink: "/blog/gis-features-from-PLSS"
 blurb: ""
 ---
 
+PLSS covers 75% of the land area of the US
+
 The [General Land Office (GLO)](https://en.wikipedia.org/wiki/General_Land_Office) was the federal government organization responsible for administering public lands in the United States. It existed from 1812 until 1849, when it was placed under the Department of the Interior and later merged with the United States Grazing Service to become the Bureau of Land Management (BLM) in 1946.
 
 Among other things, the GLO took over responsibility for finishing the [Public Land Survey System](https://en.wikipedia.org/wiki/Public_Land_Survey_System) (PLSS) from the Department of the Treasury. Another responsibility of the GLO was administering the homestead acts, with land allocation being facilitated by the PLSS.
@@ -38,15 +40,25 @@ As I already mentioned, the basic building block of the PLSS are the six-mile sq
 
 Townships are numbered sequentially based on how far away they are from their principal meridian. Directions indicate which quadrant of the principal meridian they are in. In this example we're describing township 27 South range 34 West, abbreviated to T27S R34W. It's origin is the Sixth Principle Meridian. Remember that the township is the number of six mile increments North or South of the meridian and the range is the number of six mile increments east or west of the meridian. 
 
-You may, at this point, find the use of the word "township" to describe a particularly sized plot of land to be confusing as it likely conjures up images of small towns in Pennsylvania coal country. More confusingly, as it relates to the PLSS, a township is both the term for this particular geographic reference and part of the descriptor. This would mean that the sentence "that township is on township 27 South" makes sense. 
+<!-- TODO Insert image showing the township numbering change-->
 
-Anyway, since this origin point is toward the east side of the Kansas-Nebraska border, we can see that T27S R34W is in, appropriately, Southwestern Kansas. The Southwest corner of this township would be (in theory) 204 miles West and 162 miles south of the origin.
+For most, the word "township" likely conjures up images of small towns in Pennsylvania coal country rather that a geographic description. Indeed, in the United States there is a distinction between civil township -- usually just a municipal subdivision of a county but definitions differ between states -- and "survey township". More confusingly, as it relates to the PLSS, a township is both the term for this particular geographic reference and part of its descriptor. This would mean the sentence "that township is on township 27 South" is totally valid. 
+
+Anyway, since the origin point for our township is toward the east side of the Kansas-Nebraska border, we can see that T27S R34W is in, appropriately, Southwestern Kansas. The Southwest corner of this township would be (in theory) 204 miles West and 162 miles south of the origin.
 
 <!-- TODO insert image here -->
 
-I say in theory because townships boundaries -- and their further subdivisions -- remain defined by how they were originally surveyed. This means that the technology of the time, hastiness of the crew, and more besides led to a grid that is...less that perfect but also remarkably uniform given the monumental task of the surveyors. 
+I say in theory because townships boundaries -- and their further subdivisions -- remain defined by how they were originally surveyed. This means that the technology of the time, hastiness of the crew, pre-existing land ownership claims, and probably a bunch of other stuff led to a grid that is...less that perfect but also remarkably uniform given the monumental task of the surveyors. *You* try to survey a uniform grid nearly the width of a continent and see how close yours is to perfect. The map above shows the mess that was created in Ohio while the surveyors were still learning how to walk in a straight line. But while they<sup>*</sup> became demonstrably better as westward expanded, there are still any number of abnormalities to be found across the PLSS area.
 
-You can look at the map above to see the mess that was created in Ohio while the surveyors were still learning how to walk in a straight line. But while they<sup>*</sup> became demonstrably better as westward expanded, there are still any number of abnormalities to be found in the 
+### Further Subdivisions
+Townships are further divided into "sections". A section is one mile square, meaning (again, in theory) each township has 36 sections. Sections are numbered sequentially, beginning from the Northeast corner and counting westward, meaning from right to left. When you reach the west edge of the township, you begin counting eastward in the next row south, resulting in a snakelike pattern beginning in the northeast corner and ending in the southeast corner. Not confusing at all.
+
+<!-- Insets image on counting section numbers -->
+
+One square mile or one section is 640 acres. Sections can be fractionally divided, officially down to 1/16 section. I grew up on a farm and it's very common to hear farmland area discussed in terms of quarter-sections, or 160 acres. If the number doesn't sound familiar, it's the amount of land given away to settlers under the original Homestead Act. Officially, these fractional sections are known as "aliquot parts" and can theoretically be divided infinitely. They are described by the directional quadrant.
+
+
+
 
 To be clear, we still use the PLSS today. It's still the was that land is allocated in the western United states.
 
